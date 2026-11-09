@@ -2,18 +2,18 @@
 
 A personal finance tracker I designed and built as a web app. It tracks income, expenses, cards and cash, debts, and savings, and keeps every bit of data on my own device. No cloud account, no bank connection, no third-party scripts.
 
-![Themes](screenshots/themes.jpg)
+![Themes](themes.jpg)
 
 ## Screenshots
 | Today | Cards & Cash | Income |
 |---|---|---|
-| ![Today](screenshots/today.png) | ![Cards](screenshots/cards.png) | ![Income](screenshots/income.png) |
+| ![Today](today.png) | ![Cards](cards.png) | ![Income](income.png) |
 
 | Spend | Debts | Analytics |
 |---|---|---|
-| ![Spend](screenshots/spend.png) | ![Debts](screenshots/debts.png) | ![Analytics](screenshots/analytics.png) |
+| ![Spend](spend.png) | ![Debts](debts.png) | ![Analytics](analytics.png) |
 
-*All screenshots use made-up sample data from [`sample-data/`](sample-data/).*
+*All screenshots use made-up sample data from [`money-data.sample.json`](money-data.sample.json).*
 
 ## Why I built it
 I wanted one simple place to log money every day, covering several accounts, cash, debts and savings, without giving a bank app access to my data. I built it around how I actually use money, then kept refining it through daily use.
@@ -51,7 +51,7 @@ git clone https://github.com/bvskrishna3137/my-money-desk.git
 cd my-money-desk
 
 # optional: start with the sample data instead of an empty app
-cp sample-data/money-data.sample.json money-data.json
+cp money-data.sample.json money-data.json
 
 python3 server.py
 ```
