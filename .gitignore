@@ -1,0 +1,14 @@
+# Private data: never commit
+money-data.json
+money-data.json.bak
+money-data.rev
+notify-state.json
+backups/
+*.tmp
+
+# Personal files
+hr.pdf
+
+# Python
+__pycache__/
+*.pyc
