@@ -1,14 +1,17 @@
-# Private data: never commit
+# Your real data never goes into git
 money-data.json
 money-data.json.bak
-money-data.rev
-notify-state.json
+money-data.json.tmp
+rev.txt
 backups/
-*.tmp
 
-# Personal files
-hr.pdf
+# Secrets and signing keys
+.env
+*.keystore
+*.jks
 
-# Python
+# Python / OS noise
 __pycache__/
 *.pyc
+.DS_Store
+Thumbs.db
